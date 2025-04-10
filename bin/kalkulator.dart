@@ -4,8 +4,15 @@ void main() {
 
   // Fitur Penjumlahan
   print('Penjumlahan: ${tambah(angka1, angka2)}');
+
+  // Fitur Pengurangan
+  print('Pengurangan: ${kurang(angka1, angka2)}');
 }
 
 int tambah(int a, int b) {
   return a + b;
+}
+
+int kurang(int a, int b) {
+  return a - b;
 }
